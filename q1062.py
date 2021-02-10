@@ -1,3 +1,7 @@
+"""
+https://www.acmicpc.net/problem/1002
+"""
+
 n, k = map(int, input().split())
 south_words = [list(set(input()[4:-4])) for _ in range(n)]
 south_words.sort(key=lambda x: len(x))
